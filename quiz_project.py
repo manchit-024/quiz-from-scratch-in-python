@@ -1,17 +1,6 @@
 #----------------QUIZ-------------------
 
 
-# print("enter your details")
-# f_name=input("enter your father name:")
-# m_name=(input("enter your mother name:"))
-# mob_no=int(input("enter your mobile no:"))
-# d_o_b=(int(input("enter your date of birth:")))
-# edu=(input("enter your current education:"))
-# stu_id=(int(input("enter your student id:")))
-# age=int(input(" enter your age:"))
-# password = (input("enter your password:"))
-# confirm_pass = input("Enter password: ")
-
 
 
 print("===== ENTER YOUR DETAILS =====")
@@ -97,7 +86,7 @@ else:
                 ["guido van rossum", "bjarne stroustrup", "dennis ritchie"]
             ]
 
-            for i in range(len(questions)):
+            for i in range(questions):
 
                 print("Question", i + 1)
                 print(questions[i])
@@ -124,6 +113,6 @@ else:
                             print("correct answer is:", answers[i])
 
             print("===== QUIZ COMPLETED =====")
-            print("your score =", score, "out of", len(questions))
+            print("your score =", score, "out of", (questions))
 
         
